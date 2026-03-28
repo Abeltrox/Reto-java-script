@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Gestión de Notas</title>
+<link rel="stylesheet" href="../html/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Gestión de Notas del Curso</h1>
+
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre del alumno" required>
+        <input type="number" id="nota1" placeholder="Certamen 1" required>
+        <input type="number" id="nota2" placeholder="Certamen 2" required>
+        <input type="number" id="nota3" placeholder="Certamen 3" required>
+        <button type="submit">Agregar Alumno</button>
+    </form>
+
+    <p id="mensaje" class="error"></p>
+</div>
+
+<div class="containerresultados">
+    <div class="resultados" id="resultados"></div>
+</div>
+<script src="../html/js/scripts.js" defer></script>
+</body>
+</html>
